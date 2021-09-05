@@ -1,0 +1,20 @@
+# CaptainCyber
+Test technique Nodejs/Prisma
+
+Pour commencer ce test je dois savoir de quoi on parle donc information sur nodejs sur prisma sur npm sur les commandes possibles je vais detailler les commandes utilisé au cour de cette exercice
+
+Premiere étape instalation:
+
+Pour commencer installer Node.js installer nest.js avec la commande :  npm i -g @nestjs/cli
+Puis creer un nouveau projet : nest new test-technique
+
+Une fois le project crée un dossier est crée. J'ai ouvert ce dossier avec virtual studio code, j'y ai donc decouvert toute l'architecture de dossier et de programme ainsi que les modules.
+
+Apres ceci j'ai ouvert un terminal dans studio code et j'ai executé la commande : nest run start:dev puis ouvert une page web et entrer l'url : localhost:3000
+j'ai bien eu le message Hello World avec la requette.
+
+Il faut maintenant que je créé un module Users qui vas me permettre de crée l'interface de connecio utilisateur/admin
+Donc je rentre la commande nest g mo users qui vas me créé un module users, mais avec ce module il nous faut un controller pour repondre au requette de ce module. Donc je cree un controller avec la commande : nest g co users qui me cree un fichier de test un fichier controller et qui met a jour le code du module
+
+Suite à 8h d'inforamtion sur les differents langauge je commence a ecrire ma premiere query sur le fichier
+
